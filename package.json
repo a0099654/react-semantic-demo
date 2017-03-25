@@ -20,7 +20,8 @@
     "eslint-plugin-react": "^6.4.1",
     "node-sass": "^4.5.1",
     "npm-run-all": "^4.0.2",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "stylelint": "^7.9.0"
   },
   "scripts": {
     "build-css": "node-sass src/styles -o src/styles",
@@ -30,6 +31,7 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "stylelint": "stylelint src/styles/*.scss"
   }
 }
