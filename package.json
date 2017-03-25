@@ -31,7 +31,8 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src",
-    "stylelint": "stylelint src/styles/*.scss"
+    "lint": "npm run lint:es && npm run lint:scss",
+    "lint:es": "eslint src",
+    "lint:scss": "stylelint src/styles/*.scss"
   }
 }
