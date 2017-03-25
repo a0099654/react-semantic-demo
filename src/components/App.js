@@ -21,6 +21,10 @@ class App extends Component {
           <Button primary>Primary</Button>
           <Button secondary>Secondary</Button>
         </div>
+        <div className="ui slider checkbox">
+          <input type="checkbox" name="newsletter" />
+          <label>Accept terms and conditions</label>
+        </div>
       </div>
     );
   }
