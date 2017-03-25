@@ -32,3 +32,19 @@ my-app/
   .gitignore
   .stylelintrc
 ```
+
+## Script
+
+```
+To start application
+npm start
+
+To lint
+npm run lint
+
+To run test
+npm run test
+
+To run code-coverage
+npm run test -- --coverage
+```
